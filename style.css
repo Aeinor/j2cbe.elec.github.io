@@ -179,7 +179,7 @@ img {
 	display: flex;
 	text-align: center;
 	justify-content: center;
-    align-items: center;
+  align-items: center;
 }
 
 p{
@@ -311,16 +311,6 @@ details p {
 	white-space : nowrap;
 }
 
-
-/* Disposer les éléments de la page sur une grille (ici 3 colonnes) --> de part et d'autres des vignettes*/
-.wrapper3 {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    grid-template-rows: auto;
-    grid-gap: 10px;
-    align-items: center;
-}
-
 /* Style vignettes */
 .image-wrapper {
   display: flex;
@@ -328,7 +318,8 @@ details p {
   justify-content: center;
   width: 800px;
   margin: auto;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .media {
@@ -397,6 +388,14 @@ details p {
 }
 /* Fin style vignettes */
 
+.blue_block{
+  background: #4682b4;
+	color: white;
+	border-radius: 4em;
+	text-align : center;
+	padding: 0.8em 1.8em;
+	opacity: .6;
+}
 /***** CONTACT ******/
 
 #contact_on_top{
