@@ -315,36 +315,10 @@ details p {
 /* Disposer les éléments de la page sur une grille (ici 3 colonnes) --> de part et d'autres des vignettes*/
 .wrapper3 {
     display: grid;
-    position: absolute;
-    top: 153.5%;
-    grid-template-columns: 0.9fr 1.8fr 1fr;
+    grid-template-columns: 1fr auto 1fr;
     grid-template-rows: auto;
-	grid-row-gap: 65%;
-	align-items: center;
-}
-
-#p1-1{
-	grid-column: 1;
-	grid-row: 1;
-	text-align: right;
-}
-
-#p1-2{
-	grid-column: 1;
-	grid-row: 2;
-	text-align: right;
-}
-
-#p3-1{
-	grid-column: 3;
-	grid-row: 1;
-	text-align: left;
-}
-
-#p3-2{
-	grid-column: 3;
-	grid-row: 2;
-	text-align: left;
+    grid-gap: 10px;
+    align-items: center;
 }
 
 /* Style vignettes */
