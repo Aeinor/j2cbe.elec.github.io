@@ -283,6 +283,10 @@ details p {
 	opacity: .6;
 }
 
+[src="images/home_office.png"] { 
+	left: 70%;
+}
+
 /***** SERVICES PROPOSES *****/
 
 #sp_on_top{
