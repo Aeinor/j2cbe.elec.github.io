@@ -138,7 +138,7 @@ h4:after {
 
 h5{
 	font-size: 2em;
-	padding: 0em;
+	padding: 0%;
 }
 
 /* Style de tous les boutons du site */
@@ -184,6 +184,10 @@ img {
 
 p{
 	text-align: justify;
+}
+
+li{
+  text-align: justify;
 }
 
 /* Texte au-dessus de l'image */
@@ -299,6 +303,15 @@ details p {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
+}
+
+.red_block{
+  background: #dc3e3e;
+	color: white;
+	border-radius: 4em;
+	text-align : center;
+	padding: 0.8em 1.8em;
+	opacity: .6;
 }
 
 /***** PROJETS ******/
