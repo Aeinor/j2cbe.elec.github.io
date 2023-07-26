@@ -426,12 +426,12 @@ details p {
 
 [src="images/mains.jpg"] { 
 	top: 8%;
-	position: absolute;
+	position: relative;
 }
 
 .contacts{
-	grid-column : 3;
-	grid-row: 10;
+	grid-column : 2;
+	grid-row: 1;
 }
 
 
